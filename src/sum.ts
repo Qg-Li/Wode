@@ -1,4 +1,7 @@
+
 function add(a,b){
-    return a + b;
+    var sum=a+b;
+    return "a+b= " + sum;
 }
-    document.body.innerHTML = add(4,5);
+
+document.body.innerHTML = add(12,56);
